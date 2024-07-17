@@ -6,14 +6,23 @@
 
 body{
     font-family: 'oufit' sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 54%, 90%);
+
 }
 
 main{
-    background-color: hsl(30, 54%, 90%);
+    width: 60%;
+    min-width: 375px;
+    background: white;
 }
 
 .hero-img{
-    width: 95%;
+    width: 575px;
+    max-width: 95%;
     /* height: 90%; */
     border-radius: 18px;
     margin: 0 18px;
