@@ -18,15 +18,17 @@ main{
     width: 60%;
     min-width: 375px;
     background: white;
+    padding: 26px;
+    border-radius: 16px;
+    margin: 28px;
 }
 
 .hero-img{
-    width: 575px;
-    max-width: 95%;
-    /* height: 90%; */
-    border-radius: 18px;
-    margin: 0 18px;
-    border: 1px red solid;
+    max-width: 100%; 
+    border-radius: 12px;
+    margin: auto;
+    display: block;
+    margin-bottom: 22px;
 }
 
 .title-color{
@@ -34,11 +36,19 @@ main{
 }
 .preparation-ul{
     background: hsl(330, 100%, 98%);
-    margin: 18px;
-    border-radius: 18px;
+    margin: auto;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    padding: 12px;
+    width: 90%;
+    border-radius: 12px;
     line-height: 2;
-
 }
+
+.preparation-ul li{
+    margin: 0 16px;
+}
+
 .preparation-text{
     color: hsl(332, 51%, 32%);
 }
