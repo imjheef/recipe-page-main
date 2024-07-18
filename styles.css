@@ -1,3 +1,14 @@
+:root{
+    --nutmeg: hsl(14, 45%, 36%);
+    --dark-raspberry: hsl(332, 51%, 32%);
+    --white: hsl(0, 0%, 100%);
+    --rose-white: hsl(330, 100%, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --light-grey: hsl(30, 18%, 87%);
+    --wenge-brown: hsl(30, 10%, 34%);
+    --dark-charcoal: hsl(24, 5%, 18%);
+}
+
 *{
     font-family: 'young serif', serif;
     /* padding: 0; */
@@ -17,7 +28,7 @@ body{
 main{
     width: 60%;
     min-width: 375px;
-    background: white;
+    background: var(--white);
     padding: 26px;
     border-radius: 16px;
     margin: 28px;
@@ -35,7 +46,7 @@ main{
     color: hsl(14, 45%, 36%);
 }
 .preparation-ul{
-    background: hsl(330, 100%, 98%);
+    background: var(--rose-white);
     margin: auto;
     margin-top: 22px;
     margin-bottom: 22px;
@@ -49,13 +60,15 @@ main{
     margin: 0 16px;
 }
 
-.preparation-text{
-    color: hsl(332, 51%, 32%);
+.preparation-ul li::marker{
+    color: var(--dark-raspberry);
 }
 
-.preparation-marker::marker{
-    color: hsl(332, 51%, 32%);
+.preparation-text{
+    color: var(--dark-raspberry);
 }
+
+/*  */
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
