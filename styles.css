@@ -16,25 +16,25 @@
 }
 
 body{
-
-    /* font-family: 'Young Serif', 'Arial', sans-serif; */
     font-family: 'Outfit', 'Arial', sans-serif;
     font-size: 16px;
+    color: var(--wenge-brown);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: hsl(30, 54%, 90%);
+    
 
 }
 
 main{
-    width: 60%;
-    min-width: 375px;
+    width: 80%;
     background: var(--white);
     padding: 26px;
     border-radius: 16px;
     margin: 28px;
+    font-size: 16px;
 }
 
 .hero-img{
@@ -43,6 +43,22 @@ main{
     margin: auto;
     display: block;
     margin-bottom: 22px;
+}
+
+main .hero-img img{
+    border: red solid 5px;
+}
+
+main p{
+    margin-bottom: 12px;
+}
+
+main h1{
+    
+    font-size: 3rem;
+    margin-bottom: 12px;
+    color: var(--dark-charcoal);
+
 }
 
 .title-color{
@@ -56,11 +72,9 @@ main{
 
 .preparation-ul{
     background: var(--rose-white);
-    margin: auto;
     margin-top: 22px;
     margin-bottom: 22px;
     padding: 12px;
-    width: 90%;
     border-radius: 12px;
     line-height: 2;
 }
@@ -71,13 +85,17 @@ main{
 
 }
 
+.preparation-ul{
+    padding: 12px 26px;
+}
+
 .preparation-ul span{
     font-weight: 600;
     font-weight: bold;
 }
 
 .preparation-ul li{
-    margin: 0 16px;
+    margin: 0 12px;
 }
 
 .preparation-ul li::marker{
@@ -88,12 +106,61 @@ main{
     color: var(--dark-raspberry);
 }
 
+.ingredients-ul{
+    margin: 22px 0;;
+    line-height: 2;
+}
+
 hr{
     margin: 22px 0;
     opacity: 0.3;
 }
 
-/*  */
+.instructions-ol{
+    margin-top: 22px;
+    margin-bottom: 22px;
+    border-radius: 12px;
+    padding: 12px 26px;
+    font-size: 16px;
+}
+
+.instructions-ol li{
+    margin: 12px 0;
+}
+
+.instructions-ol li::marker{
+    color: var(--nutmeg);
+    font-weight: bold;
+}
+
+.nutrition-table{
+    margin: 22px 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 24px 0;
+}
+
+th, td {
+    border-bottom: 1px solid var(--light-grey);
+    padding: 8px;
+    
+}
+
+td span{
+    color: var(--nutmeg);
+    font-weight: bold;
+}
+
+table tr:last-child td{
+    border-bottom: none;
+}
+
+th {
+    text-align: left;
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
