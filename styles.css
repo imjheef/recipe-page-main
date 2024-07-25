@@ -159,22 +159,23 @@ th {
 }
 
 @media screen and (max-width: 575px) {
-    body{
-        background-color: white;
-    }
-    main h1{
-        font-size: 2rem;
-    }
-    .hero-img{
-        object-fit: cover;
-        border-radius: 0;
-        margin-bottom: 22px;
-    }
-    main{
-        border-radius: 0;
-        width: 100%;
-    }
+main{
+    width: 90%;
+    padding: 14px;
+    margin: 0;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+main h1{
+    font-size: 2rem;
+}
+
+}
+
+.attribution { 
+    padding: 24px 0;
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
